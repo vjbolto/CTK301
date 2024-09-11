@@ -1,0 +1,40 @@
+h1 {
+    color: blue;
+    background-color: orange;
+}
+h2 {
+    color: blueviolet;
+    background-color: yellowgreen;
+}
+h3 {
+    color: purple;
+    background-color: yellow;
+}
+#MPtext {
+    color: rgb(161, 178, 6);
+}
+.P2text {
+    color:fuchsia
+}
+#P3text {
+    color: #30cfff;
+}
+.P3text2 {
+    color: #dd00ff;
+    background-color: chartreuse;
+}
+.spanner {
+    text-decoration: underline;
+}
+a {
+    color: red;
+    text-decoration: underline;
+}
+a:visited {
+    color: green;
+    text-decoration: underline;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
