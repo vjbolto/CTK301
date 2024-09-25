@@ -26,7 +26,7 @@ body {
 .textjustify {
     text-align: justify;
 }
-  nav li {
+nav li {
     display: inline-block;
     padding: 0;
     margin: 10px;
@@ -34,7 +34,7 @@ body {
     color: #ffffff;
     font-weight: normal;
   }
-  nav li a {
+nav li a {
     color: #ffffff;
     text-decoration: none;
     display: block;
@@ -42,7 +42,7 @@ body {
     background-color: darkblue;
     font-weight: normal;
   }
-  nav li a:hover {
+nav li a:hover {
     color: #ffffff;
     text-decoration: none;
     display: block;
