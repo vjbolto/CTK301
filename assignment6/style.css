@@ -57,7 +57,8 @@ header {
   body {
     background-image: url(a62.png);
 }
-b {
+#bold {
+    font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #imgborder {
