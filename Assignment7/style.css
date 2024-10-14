@@ -1,0 +1,139 @@
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 5px solid blue;
+  }
+
+h1 a{
+    color: lightblue;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: normal;
+}
+h1 a:visited{
+    color: lightblue;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: normal;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 5px;
+    border-bottom: 3px solid blue;
+    color: blue;
+  }
+  p {
+    margin: 10px;
+  }
+  p a{
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+  }
+  .fontcolorred{
+    font-weight: normal;
+    color: red;
+    text-decoration: none;
+  }
+  #bold{
+    font-weight: bold;
+  }
+  main{
+    grid-column: span 3;
+  }
+  main a {
+    color: red;
+    text-decoration: none;
+  }
+  .column1{
+    grid-column: span 1;
+  }
+  #textjustify {
+    text-align: justify;
+    margin-right: 10px;
+  }
+  header {
+    grid-column: span 4;
+    background: linear-gradient(blue, darkblue);
+    color: lightblue;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 5px solid blue;
+  }
+  .floatimg {
+    float: left;
+  padding: 0px;
+  border: 3px solid blue;
+  margin: 10px;
+  }
+  .floatimgright {
+    float: right;
+  padding: 0px;
+  border: 3px solid blue;
+  margin: 10px;
+  }
+  .floatimgcenter{
+    float: center;
+  padding: 0px;
+  border: 3px solid blue;
+  margin: 10px;
+  }
+  .emptybox{
+    padding: 20px;
+  }
+  nav li {
+    display: inline-block;
+    padding: 0;
+    margin: -4px;
+    width: 220px;
+    color: lightblue;
+    font-weight: bold;
+  }
+  #backgroundnav {
+    background-color: lightblue;
+  }
+nav li a {
+    color: lightblue;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background: linear-gradient(blue, darkblue);
+    font-weight: bold;
+    border: 3px solid blue;
+  }
+nav li a:hover {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    font-weight: bold;
+  }
+  nav li a:active{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    font-weight: bold;
+  }
+  body{
+    background-color: grey;
+  }
+  footer{
+    grid-column: span 4;
+    background-color: red;
+    color: lightblue;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-top: 5px solid blue;
+  }
