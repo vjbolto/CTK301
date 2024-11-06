@@ -1,0 +1,51 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background: linear-gradient(darkmagenta, darkblue);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:xx-large;
+  color:blueviolet;
+}
+
+a {
+  text-decoration: none;
+  grid-column: span 4;
+  color:dodgerblue;
+  text-align: center;
+}
+
+.imgheader {
+  grid-column: span 4;
+  color:dodgerblue;
+  text-align: center;
+  font-size: x-large;
+}
+
+.imgdesc {
+  grid-column: span 4;
+  color:dodgerblue;
+  text-align: center;
+}
+
+.floatimg {
+  float: left;
+  width: 360px;
+  height: 360px;
+padding: 0px;
+border: 3px solid blue;
+margin: 10px;
+}
