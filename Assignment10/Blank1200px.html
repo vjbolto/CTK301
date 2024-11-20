@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Blank 1200</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +33,11 @@
 			<div class="imgheader">
 				<span class="doto-main">STORIES</span>
 			</div>
-			<img class="floatimg" src="Story.png">
+			<div id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="Story.png"></div>
+				<div class="f-carousel__slide"><img src="story2.png"></div>
+				<div class="f-carousel__slide"><img src="story3.png"></div>
+			</div>
 	Stories that I have written and am proud enough to share the content.
 		</div>
 		</a>
@@ -49,6 +55,10 @@
 		<a href="https://www.youtube.com/@insanity_plays8946" target="_blank" class="bi bi-youtube"></a>
 	</footer>
 	</div>
-	
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
 </body>
 </html>
