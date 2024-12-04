@@ -1,0 +1,98 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background: linear-gradient(darkmagenta, darkblue);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+header {
+  grid-column: span 12;
+  text-align: center;
+  font-size:xx-large;
+  color:rgb(192, 132, 248);
+}
+
+a {
+  text-decoration: none;
+  grid-column: span 4;
+  color:dodgerblue;
+  text-align: center;
+}
+
+.imgheader {
+  grid-column: span 4;
+  color:dodgerblue;
+  text-align: center;
+  font-size: x-large;
+}
+
+.imgdesc {
+  grid-column: span 4;
+  color:dodgerblue;
+  text-align: center;
+}
+
+.floatimg {
+  float: left;
+  width: 360px;
+  height: 360px;
+margin: 10px;
+padding: 2px;
+border: 2px solid blue;
+background-color: blue;
+border-radius: 15px;
+box-shadow: 7px 7px 7px darkorchid; /* x, y, blur, color */
+}
+
+.doto-main {
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+}
+
+.source-code-pro-text {
+  font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.social a{
+  color: red;
+  font-size: larger;
+}
+
+#myCarousel {
+  margin: 10px;
+  width: 360px;
+  height: 360px;
+}
+
+.f-carousel {
+  --f-button-width: 38px;
+  --f-button-height: 38px;
+
+  --f-button-svg-width: 16px;
+  --f-button-svg-height: 16px;
+  --f-button-svg-stroke-width: 2.5;
+
+  --f-button-color: rgb(71 85 105);
+  --f-button-border-radius: 50%;
+  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-button-bg: blueviolet;
+  --f-button-hover-bg: blue;
+  --f-button-active-bg: lightblue;
+}
