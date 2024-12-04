@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Blank 1200</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" /> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link href="Blank1200px.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div id="wrapper">
+		<header class="doto-main">
+		MY GAME PROJECTS
+		</header>
+        <div class="imgdesc">
+			<div class="imgheader">
+				<span class="doto-main">CURRENT PROJECT</span>
+			</div>
+			<div id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="Story.png"></div>
+				<div class="f-carousel__slide"><img src="story2.png"></div>
+				<div class="f-carousel__slide"><img src="story3.png"></div>
+			</div>
+		</div>
+        <div class="imgdesc">
+            <div class="imgheader">
+                <div class="content">
+                    <input type="checkbox" id="toggle">
+                    <p class="text">
+                        Past Projects<br>
+                        <span class="more">
+                            </span>
+                    </p>
+                    <label for="toggle" class="show-more">Show More</label>
+                    <label for="toggle" class="show-less">Show Less</label>
+                </div>
+            </div>
+    </div>
+    <div class="imgdesc">
+        <div class="imgheader">
+            <div class="content">
+                <input type="checkbox" id="toggle">
+                <p class="text">
+                    Big Idea<br>
+                    <span class="more">
+                        </span>
+                </p>
+                <label for="toggle" class="show-more">Show More</label>
+                <label for="toggle" class="show-less">Show Less</label>
+            </div>
+        </div>
+</div>
+        <footer class="social">
+			<br><br>
+		<a href="https://www.youtube.com/@insanity_plays8946" target="_blank" class="bi bi-youtube"></a>
+	</footer>
+	</div>
+	<script>
+		const container = document.getElementById("myCarousel");
+		const options = { infinite: false };
+		new Carousel(container, options);
+	</script>
+    </div>
+</body>
+</html>

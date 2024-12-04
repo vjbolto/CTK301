@@ -96,3 +96,77 @@ box-shadow: 7px 7px 7px darkorchid; /* x, y, blur, color */
   --f-button-hover-bg: blue;
   --f-button-active-bg: lightblue;
 }
+
+.content {
+  position: relative;
+  width: 350px;
+  font-family: Arial, sans-serif;
+}
+
+.text {
+  margin: 0;
+}
+
+.more {
+  display: none; /* Initially hide the extra content */
+}
+
+#toggle {
+  display: none; /* Hide the checkbox */
+}
+
+#toggle2 {
+  display: none; /* Hide the checkbox */
+}
+
+#toggle3 {
+  display: none; /* Hide the checkbox */
+}
+
+.show-more, .show-less {
+  display: inline-block;
+  color: blue;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.show-less {
+  display: none; /* Initially hide the 'Show Less' button */
+}
+
+/* When the checkbox is checked, show the extra content and 'Show Less' button */
+#toggle:checked ~ .text .more {
+  display: inline;
+}
+
+#toggle:checked ~ .show-more {
+  display: none; /* Hide the 'Show More' button */
+}
+
+#toggle:checked ~ .show-less {
+  display: inline; /* Show the 'Show Less' button */
+}
+
+#toggle2:checked ~ .text .more {
+  display: inline;
+}
+
+#toggle2:checked ~ .show-more {
+  display: none; /* Hide the 'Show More' button */
+}
+
+#toggle2:checked ~ .show-less {
+  display: inline; /* Show the 'Show Less' button */
+}
+
+#toggle3:checked ~ .text .more {
+  display: inline;
+}
+
+#toggle3:checked ~ .show-more {
+  display: none; /* Hide the 'Show More' button */
+}
+
+#toggle3:checked ~ .show-less {
+  display: inline; /* Show the 'Show Less' button */
+}
